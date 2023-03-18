@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main function 
+ * main - main function
  * Return: always 0
  *
  */
@@ -23,7 +23,7 @@ int main(void)
 					putchar(i + '0');
 					putchar(j + '0');
 					putchar(w + '0');
-					if (i + j + w !=24)
+					if (i + j + w != 24)
 					{
 						putchar(',');
 						putchar(' ');
