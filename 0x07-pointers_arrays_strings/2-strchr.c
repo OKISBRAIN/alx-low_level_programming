@@ -4,7 +4,7 @@
  * _strchr - Entry point
  * @s: input string
  * @c: char we need to locate
- * Return: return 0
+ *
  */
 
 char *_strchr(char *s, char c)
@@ -16,5 +16,4 @@ char *_strchr(char *s, char c)
 		if (s[i] == c)
 			return (&s[i]);
 	}
-	return (0);
 }
